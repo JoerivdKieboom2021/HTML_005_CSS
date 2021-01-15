@@ -1,0 +1,177 @@
+/* Global */
+body {
+    font-family: 'Roboto', sans-serif;
+    width: 75%;
+    margin: auto;
+}
+
+/* Header */
+header h1.header-style {
+    color: orange;
+    letter-spacing: 3px;
+}
+
+/* Nav */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 15px 15px 15px 0px;
+    overflow: hidden;
+    background: black;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 15px;
+    padding-bottom: 16px;
+    text-decoration: none;
+    text-align: center;
+    transition: 2s;
+    color: white;
+}
+
+nav ul li a:hover {
+    background-color: white;
+    color: black;
+}
+
+/* Main Article */
+
+.article-box {
+    margin: 25px 4%;
+    border: 2px solid black;
+    border-radius: 15px;
+    padding: 10px;
+    background-color: rgb(236, 234, 234);
+    color: rgb(63, 63, 63);
+    display: inline-block;
+    position: relative;
+    width: 25%;
+    box-sizing: border-box;
+}
+
+.article-box header h2 {
+    letter-spacing: 2px;
+    color: orange;
+}
+
+.article-box section p {
+    font-size: 1em;
+    text-align: justify;
+    color: rgb(85, 85, 85);
+}
+
+.article-box footer p {
+    font-size: 12px;
+    color: rgb(0, 0, 0);
+}
+
+/* Footer */
+
+
+footer ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 15px 15px 15px 0px;
+    overflow: hidden;
+    background-color: orange;
+}
+
+footer ul li {
+    display: inline;
+}
+
+footer ul li a {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 35px;
+    padding-bottom: 16px;
+    text-decoration: none;
+    text-align: center;
+    transition: 2s;
+    color: white;
+}
+
+footer ul li a:hover {
+    background-color: white;
+    color: orange;
+}
+
+/* Boxes */
+.big-box-1, .big-box-2, .big-box-3, .big-box-4, .big-box-5, .big-box-6 {
+    background-color: blue;
+    margin: 15px;
+    width: 150px;
+    height: 150px;
+    display: inline-block;
+    position: relative;
+}
+
+.mini-box-1, .mini-box-2, .mini-box-3, .mini-box-4, .mini-box-5, .mini-box-6 {
+    background-color: red;
+    width: 75px;
+    height: 75px;
+    transition: 2s;
+}
+
+.mini-box-1 {
+    position: absolute;
+    bottom: 0;
+}
+
+.mini-box-4 {
+    position: absolute;
+    right: 0;
+}
+
+.mini-box-6 {
+    width: 100px;
+    height: 100px;
+}
+
+.mini-box-1:hover {
+    padding-top: 75px;
+}
+
+.mini-box-2:hover {
+    padding-right: 75px;
+}
+
+.mini-box-3:hover {
+    padding-bottom: 75px;
+}
+
+.mini-box-4:hover {
+    padding-left: 75px;
+}
+
+.mini-box-5:hover {
+    padding: 37.5px;
+}
+
+.mini-box-6:hover {
+    margin: 17.5%;
+}
+
+.article-box-style {
+    margin: 25px 4% 50px;
+    border: 2px solid black;
+    border-radius: 15px;
+    padding: 10px;
+    background-color: rgb(0, 0, 0);
+    color: orange;
+}
+
+.article-box-style p, ul{
+    font-size: 1.5em;
+    letter-spacing: 2px;
+}
+
+.article-box-style ul {
+    line-height: 35px;
+}
